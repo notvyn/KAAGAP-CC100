@@ -9,7 +9,7 @@
         
         <!-- Stylesheet & Website Icon-->
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="/KAAGAP-CC100/Images/Logo_Green.png">
+        <link rel="icon" href="/KAAGAP-CC100/Images/Logo/Logo_Green.png">
         
         <!-- Font Style -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,16 +19,29 @@
     <body>
         <!-- Header content -->
         <header>
-            <a href="index.html"><img src="/KAAGAP-CC100/Images/Logo_Green.png" width="100"></a>
+            <a href="index.html"><img src="/KAAGAP-CC100/Images/Logo/Logo_Green.png" id="site-logo" width="100"></a>
+            <h1 id="site-title">KAAGAP</h1>
 
-            <!-- Navigation section -->
-            <nav>
-                <a href="about.html">About</a>
-                <a href="disaster-information.html">Disaster Information</a>
-                <a href="preparedness-tips.html">Preparedness Tips</a>
-                <a href="community.html">Community</a>
-            </nav>
+            <button id="search-button"></button>
+            
+            <div id="language-container">
+                <select id="language-selector">
+                    <option class="language-option">English</option>
+                    <option class="language-option">Filipino</option>
+                    <option class="language-option">Cebuano</option>
+                    <option class="language-option">Ilocano</option>
+                    <option class="language-option">Hiligaynon</option>
+                </select>
+            </div>
         </header>
+
+        <!-- Navigation section -->
+        <nav>
+            <a class="header-nav" href="about.html">About</a>
+            <a class="header-nav" href="disaster-information.html">Disaster Information</a>
+            <a class="header-nav" href="preparedness-tips.html">Preparedness Tips</a>
+            <a class="header-nav" href="community.html">Community</a>
+        </nav>
 
         <!-- Main content starts here -->
         <main>

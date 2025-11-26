@@ -6,3 +6,59 @@ html, body {
 body {
     font-family: "Cabin", "Viga", sans-serif;
 }
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem 0;
+}
+
+#site-logo {
+    width: 6rem;
+    margin: 0 10px;
+}
+
+#site-title {
+    display: inline;
+    font-size: 2.8rem;
+    flex-grow: 1;
+}
+
+#language-selector {
+    padding: 0.8rem 4rem 0.8rem 0.4rem;
+    margin: 0 3rem 0 1rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+}
+
+#language-selector:focus {
+    outline: none;
+}
+
+#search-button {
+    background: url("/KAAGAP-CC100/Images/Icons/Search_Icon.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+nav {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
