@@ -15,12 +15,12 @@ header {
     padding: 0.8rem 0;
 }
 
-#site-logo {
+.site-logo {
     width: 6rem;
     margin: 0 10px;
 }
 
-#site-title {
+.site-title {
     display: inline;
     font-size: 2.8rem;
     flex-grow: 1;
@@ -61,4 +61,64 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
+}
+
+#section-one {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(47, 46, 45);
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+}
+
+.footer-horizontal-slash {
+    background-color: rgb(193, 203, 203);
+    width: 75%;
+    height: 1rem;
+    border-radius: 100px;
+}
+
+#site-contacts {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 0.8rem 0;
+}
+
+.site-socials {
+    padding: 0 6% 0 1%;
+}
+
+.site-socials-button {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#facebook-social {
+    background-image: url("Images/Icons/Facebook-Icon.png");
+}
+
+#instagram-social {
+    background-image: url("Images/Icons/Instagram-Icon.png");
+}
+
+#linkedin-social {
+    background-image: url("Images/Icons/LinkedIn-Icon.png");
+    background-size: 3rem;
 }
