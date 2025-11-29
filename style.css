@@ -63,15 +63,8 @@ nav {
 
 nav a {
     text-decoration: none;
+    font-weight: 500;
     color: black;
-}
-
-.initial-image {
-    width: 100%;
-    height: 30rem;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 footer {
@@ -113,6 +106,10 @@ footer {
     height: 3rem;
     margin: 2px;
     cursor: pointer;
+}
+
+#site-follow-us {
+    font-size: 1.1rem;
 }
 
 #facebook-social {
