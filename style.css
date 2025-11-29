@@ -68,28 +68,41 @@ nav a {
 }
 
 footer {
+    background-color: #C8CDCA;
+    color: white;
+    padding: 2rem 0 0 0;
+    margin-top: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    background-color: rgb(47, 46, 45);
-    color: white;
-    padding: 2rem 0;
-    margin-top: auto;
+}
+
+#footer-container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-horizontal-slash {
-    background-color: rgb(193, 203, 203);
-    width: 75%;
+    background-color: #f4f4f4;
+    width: 65rem;
     height: 1rem;
+    margin: 1rem 0;
     border-radius: 100px;
 }
 
 #site-contacts {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 90%;
-    padding: 0.8rem 0;
+    width: 80rem;
+    margin: 0;
+}
+
+#site-contacts a {
+    margin: 0 0 0 2rem;
 }
 
 .site-socials {
@@ -123,4 +136,47 @@ footer {
 #linkedin-social {
     background-image: url("Images/Icons/LinkedIn-Icon.png");
     background-size: 3rem;
+}
+
+#footer-container-two {
+    width: 80rem;
+}
+
+#site-description, #site-map {
+    margin: 0 0 0 2rem;
+}
+
+#site-description {
+    padding: 8px 1rem;
+}
+
+#site-map {
+    display: flex;
+    gap: 7rem;
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-header-nav {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.footer-page-nav {
+    text-decoration: none;
+    color: #efefef;
+}
+
+#kaagap-copyright {
+    padding: 1rem;
+    font-size: 12px;
+    text-align: center;
 }
