@@ -6,3 +6,6 @@ The core repository for the KAAGAP disaster preparedness website, containing all
 
 11/26/2025 - Header, Navigation Bar, and Footer Added
 - Establish the overall navigation bar of all pages.
+
+11/28/2025 - Added New Sections in the Home Page
+- Embedded the Hazard Map viewing and alternative access of the disaster information page and preparedness tips  
