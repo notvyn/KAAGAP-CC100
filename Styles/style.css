@@ -126,15 +126,15 @@ footer {
 }
 
 #facebook-social {
-    background-image: url("Images/Icons/Facebook-Icon.png");
+    background-image: url("/KAAGAP-CC100/Images/Icons/Facebook-Icon.png");
 }
 
 #instagram-social {
-    background-image: url("Images/Icons/Instagram-Icon.png");
+    background-image: url("/KAAGAP-CC100/Images/Icons/Instagram-Icon.png");
 }
 
 #linkedin-social {
-    background-image: url("Images/Icons/LinkedIn-Icon.png");
+    background-image: url("/KAAGAP-CC100/Images/Icons/LinkedIn-Icon.png");
     background-size: 3rem;
 }
 

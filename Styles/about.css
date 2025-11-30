@@ -122,13 +122,13 @@
 }
 
 .team-socials-facebook {
-    background-image: url("Images/Icons/Facebook-Icon.png");
+    background-image: url("/KAAGAP-CC100/Images/Icons/Facebook-Icon.png");
 }
 .team-socials-linkedin {
-    background-image: url("Images/Icons/LinkedIn-Icon.png");
+    background-image: url("/KAAGAP-CC100/Images/Icons/LinkedIn-Icon.png");
     background-size: 4rem;
 }
 .team-socials-github {
-    background-image: url("Images/Icons/Github-Icon.png");
+    background-image: url("/KAAGAP-CC100/Images/Icons/Github-Icon.png");
     background-size: 2.5rem;
 }
