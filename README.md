@@ -12,3 +12,6 @@ The core repository for the KAAGAP disaster preparedness website, containing all
 
 11/29/2025 - Completed the framework of the wireframe design
 - Added template for Disaster Information and Preparedness Tips Page. Inserted a Static form page in the Community Page and updated the footers with a site map and copyright.
+
+11/30/2025 - Updated the Contents of the Disaster Information Page
+- Refined the file management and modified the content of the disaster information page by including headers, paragraphs, images, and links.
