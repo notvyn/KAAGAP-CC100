@@ -10,6 +10,18 @@
     background-color: #bebebe;
 }
 
+#disaster-information-head h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+#disaster-information-head p {
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 1rem 0;
+}
+
 #preparedness-initial-image {
     background-color: #bebebe;
 }
@@ -27,7 +39,7 @@
 .info-navigation-container {
     margin: 3rem 1rem 1rem 2rem;
     padding: 1rem 1rem;
-    width: 40rem;
+    width: 30rem;
     max-width: 20rem;
     display: flex;
     flex-direction: column;
@@ -52,12 +64,13 @@
 }
 
 .info-content-container {
-    padding: 0 1rem 2rem 1rem;
-    margin: 1rem;
-    width: auto;
+    padding: 0 3rem 2rem 1rem;
+    margin: 1rem 1rem 1rem 2rem;
+    width: 100rem;
+    text-align: justify;
 }
 
-.info-content-container h2, .info-content-container p {
+.info-content-container h2, .info-content-container p, .info-content-container img {
     width: 100%;
 }
 
@@ -69,4 +82,17 @@
 .info-content-container p {
     font-size: 1.2rem;
     padding: 0 1rem 0.5rem 1rem;   
+}
+
+.info-content-container img {
+    padding: 0 1rem;
+}
+
+.info-content-container li {
+    font-size: 1.1rem;
+    padding: 5px 1rem;
+}
+
+.info-sources-link {
+    color:#00BF62;
 }
