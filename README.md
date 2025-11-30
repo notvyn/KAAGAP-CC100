@@ -1,4 +1,4 @@
-# KAAGAP-CC100
+# KAAGAP-CC100-Documentation
 The core repository for the KAAGAP disaster preparedness website, containing all foundational files and assets for development and deployment.
 
 11/24/2025 - Structure Constructed
