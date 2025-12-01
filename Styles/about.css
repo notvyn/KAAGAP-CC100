@@ -27,7 +27,7 @@
     font-size: 1.2rem;
 }
 
-#kaagap-info-mission {
+.kaagap-info-stripes {
     background-color: rgb(236, 234, 234)
 }
 
@@ -79,7 +79,16 @@
     height: 20rem;
     margin: 1rem 2rem;
     border-radius: 100%;
-    background-image: url("/KAAGAP-CC100/Images/Disaster-Information/Philippines\ 6_9-magnitude\ earthquake\ death\ toll___.jpg");
+}
+
+#samson-picture {
+    object-fit: cover;
+    object-position: top;
+}
+
+#rosales-picture {
+    object-fit: cover;
+    object-position: 0 -9rem;
 }
 
 .team-profile-name, .team-profile-description, .team-profile-role {
