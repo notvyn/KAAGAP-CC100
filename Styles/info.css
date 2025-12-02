@@ -1,9 +1,13 @@
 .initial-image {
     width: 100%;
     height: 30rem;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+}
+
+.initial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
 }
 
 #disaster-initial-image {
@@ -72,6 +76,9 @@
 
 .info-content-container h2, .info-content-container p, .info-content-container img {
     width: 100%;
+}
+
+.disaster-sign {
 }
 
 .info-content-container h2 {
