@@ -15,3 +15,6 @@ The core repository for the KAAGAP disaster preparedness website, containing all
 
 11/30/2025 - Updated the Contents of the Disaster Information Page
 - Refined the file management and modified the content of the disaster information page by including headers, paragraphs, images, and links.
+
+12/1/2025 - Inserted new Sections in the Main Page
+- Added Welcome Greet to users and a newsletter for subscription as well as some stories and about us.
