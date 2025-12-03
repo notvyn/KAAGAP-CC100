@@ -18,3 +18,6 @@ The core repository for the KAAGAP disaster preparedness website, containing all
 
 12/1/2025 - Inserted new Sections in the Main Page
 - Added Welcome Greet to users and a newsletter for subscription as well as some stories and about us.
+
+12/2/2025 - Included Images for all pages
+- Refined the set of images used and updated the contents of different pages
