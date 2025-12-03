@@ -1,9 +1,26 @@
+:root {
+    --backgroundDarkGreen: #157F1F;
+    --backgroundLightGreen: #4CB963;
+    --backgroundJetBlack: #1D263B;
+    --backgroundBrightSnow: #F7F9F9;
+    --textWhite: #ffffff;
+    --textBlack: #000000;
+    --textGreen: #157F1F;
+    --buttonGreen: #4CB963;
+    --buttonCyan: #5C6784;
+    --buttonBrightSnow: #F7F9F9;
+}
+
 #about-initial-image {
-    background: url("/KAAGAP-CC100/Images/Disaster-Information/NASA\ images\ show\ ash\ damage\ from\ the\ Philippines\'\ Taal\ Volcano.jpg");
-    background-size: cover;
-    background-position: center;
-    background-position-y: center;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem;
+}
+
+#about-initial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
 }
 
 #about-section-one {
@@ -28,12 +45,12 @@
 }
 
 .kaagap-info-stripes {
-    background-color: rgb(236, 234, 234)
+    background-color: rgb(76, 185, 99, 0.3);
 }
 
 #about-section-two {
     width: 100%;
-    height: auto;
+    height: 55rem;
     margin: 1rem 0;
     display: flex;
     flex-direction: column;
@@ -43,9 +60,10 @@
 
 #team-header-container {
     padding: 5px 4rem;
-    margin: 0 0 10px 0;
+    margin: 0 0 2rem 0;
     border-radius: 10px;
-    background-color: rgb(235, 235, 235);
+    background-color: var(--backgroundDarkGreen);
+    color: var(--textWhite);
 }
 
 #team-header-container h2 {
@@ -71,7 +89,7 @@
     padding: 1.2rem;
     margin: 0 3rem;
     border-radius: 10px;
-    background: linear-gradient(#ffffff, #d3d3d3);
+    background: rgb(247, 249, 249, 0.5);
 }   
 
 .team-profile-picture {
@@ -117,7 +135,7 @@
     justify-content: space-evenly;
     align-items: center;
     border-radius: 5px;
-    background-color: beige;
+    background-color: rgb(227, 178, 60, 0.1);
 }
 
 .team-profile-socials-button {

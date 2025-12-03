@@ -1,3 +1,15 @@
+:root {
+    --backgroundDarkGreen: #157F1F;
+    --backgroundLightGreen: #4CB963;
+    --backgroundJetBlack: #1D263B;
+    --backgroundBrightSnow: #F7F9F9;
+    --textWhite: #ffffff;
+    --textBlack: #000000;
+    --textGreen: #157F1F;
+    --buttonGreen: #4CB963;
+    --buttonCyan: #5C6784;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -53,7 +65,7 @@ header {
 }
 
 nav {
-    background-color: #4CB963;
+    background-color: var(--backgroundLightGreen);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -64,12 +76,12 @@ nav {
 nav a {
     text-decoration: none;
     font-weight: 500;
-    color: black;
+    color: var(--textWhite);
 }
 
 footer {
-    background-color: #2B303A;
-    color: white;
+    background-color: var(--backgroundJetBlack);
+    color: var(--textWhite);
     padding: 2rem 0 0 0;
     margin-top: auto;
     display: flex;
@@ -86,7 +98,7 @@ footer {
 }
 
 .footer-horizontal-slash {
-    background-color: #F7F9F9;
+    background-color: var(--backgroundBrightSnow);
     width: 65rem;
     height: 1rem;
     margin: 1rem 0;
@@ -164,7 +176,7 @@ footer {
 
 .footer-header-nav {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--textWhite);
     font-weight: 600;
     font-size: 1.2rem;
     margin: 0;
@@ -172,7 +184,7 @@ footer {
 
 .footer-page-nav {
     text-decoration: none;
-    color: #efefef;
+    color: var(--textWhite);
 }
 
 #kaagap-copyright {

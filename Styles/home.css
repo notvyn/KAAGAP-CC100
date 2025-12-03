@@ -1,3 +1,16 @@
+:root {
+    --backgroundDarkGreen: #157F1F;
+    --backgroundLightGreen: #4CB963;
+    --backgroundJetBlack: #1D263B;
+    --backgroundBrightSnow: #F7F9F9;
+    --textWhite: #ffffff;
+    --textBlack: #000000;
+    --textGreen: #157F1F;
+    --buttonGreen: #4CB963;
+    --buttonCyan: #5C6784;
+    --buttonBrightSnow: #F7F9F9;
+}
+
 main {
     width: 100%;
     height: 100%;
@@ -23,7 +36,7 @@ main {
 }
 
 #greet-site-title {
-    color: #157F1F;
+    color: ;
 }
 
 #greet-subheader {
@@ -43,7 +56,7 @@ main {
     width: 100%;
     height: 50rem;
     margin: 0;
-    background-color: #F7F9F9;
+    background-color: var(--backgroundBrightSnow);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,10 +100,10 @@ main {
     font-size: 1.2rem;
     font-weight: 600;
     text-decoration: none;
-    background-color: #5C6784;
+    background-color: var(--buttonCyan);
     padding: 10px;
     width: 100%;
-    color: #ffffff;
+    color: var(--textWhite);
     border-radius: 5px;
 }
 
@@ -131,8 +144,8 @@ main {
     border: none;
     font-weight: 600;
     cursor: pointer;
-    background-color: #4CB963;
-    color: #ffffff;
+    background-color: var(--backgroundLightGreen);
+    color: var(--textWhite);
 }
 
 #map-image {
@@ -152,14 +165,14 @@ main {
 }
 
 #awareness-container {
-    background-color: #2B303A;
+    background-color: var(--backgroundDarkGreen);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 7rem;
     font-size: 1.8rem;
-    color: #ffffff;
+    color: var(--textWhite);
 }
 
 #pages-hub {
@@ -177,7 +190,7 @@ main {
     margin: 0 3.5rem;
     padding: 0 2rem;
     border-radius: 5px;
-    background-color: #4CB963;
+    background-color: var(--backgroundBrightSnow);
 }
 
 .pages-hub-image {
@@ -204,8 +217,8 @@ main {
     border: none;
     font-weight: 600;
     text-decoration: none;
-    color: #000000;
-    background-color: #F7F9F9;
+    color: var(--textWhite);
+    background-color: var(--buttonCyan);
     padding: 6px 15%;
     margin: 0 0 2rem 0;
 }
@@ -213,7 +226,8 @@ main {
 #home-section-six {
     width: 100%;
     height: 30rem;
-    background-color: #cfcfcf;
+    background-color: var(--backgroundDarkGreen);
+    color: var(--textWhite);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,13 +255,11 @@ main {
     max-width: 50rem;
     height: 25rem;
     margin: 0 1rem;
-    background-color: aliceblue;
 }
 
 #home-section-seven {
     width: 100%;
     height: 40rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,7 +288,7 @@ main {
 #newsletter-form {
     display: flex;
     flex-direction: column;
-    background-color: rgb(188, 188, 184);
+    background-color: var(--backgroundLightGreen);
     padding: 2rem;
     margin: 0 0 3rem 0;
     width: 100%;
@@ -316,4 +328,5 @@ main {
     border: none;
     border-radius: 2px;
     cursor: pointer;
+    
 }

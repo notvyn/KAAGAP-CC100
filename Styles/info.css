@@ -1,3 +1,15 @@
+:root {
+    --backgroundDarkGreen: #157F1F;
+    --backgroundLightGreen: #4CB963;
+    --backgroundJetBlack: #1D263B;
+    --backgroundBrightSnow: #F7F9F9;
+    --textWhite: #ffffff;
+    --textBlack: #000000;
+    --textGreen: #157F1F;
+    --buttonGreen: #4CB963;
+    --buttonCyan: #5C6784;
+}
+
 .initial-image {
     width: 100%;
     height: 30rem;
@@ -10,10 +22,6 @@
     opacity: 0.5;
 }
 
-#disaster-initial-image {
-    background-color: #bebebe;
-}
-
 #disaster-information-head h2 {
     font-size: 2.5rem;
     margin: 0;
@@ -24,14 +32,6 @@
     font-size: 1.1rem;
     margin: 0;
     padding: 1rem 0;
-}
-
-#preparedness-initial-image {
-    background-color: #bebebe;
-}
-
-#community-initial-image {
-    background-color: #bebebe;
 }
 
 .info-section-one {
@@ -56,14 +56,14 @@
 
 .info-navigation-container h2 {
     font-size: 1.1rem;
-    background-color: #00BF62;
-    color: #fcfcfc;
+    background-color: var(--backgroundLightGreen);
+    color: var(--textWhite);
     margin: 0;
 }
 
 .info-navigation-container a {
     text-decoration: none;
-    background-color: #F3F3F3;
+    background-color: var(--backgroundBrightSnow);
     color: #000000;
 }
 
@@ -76,9 +76,6 @@
 
 .info-content-container h2, .info-content-container p, .info-content-container img {
     width: 100%;
-}
-
-.disaster-sign {
 }
 
 .info-content-container h2 {
@@ -101,5 +98,5 @@
 }
 
 .info-sources-link {
-    color:#00BF62;
+    color:var(--backgroundLightGreen);
 }
