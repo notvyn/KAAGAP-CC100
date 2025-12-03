@@ -53,7 +53,7 @@ header {
 }
 
 nav {
-    background-color: aquamarine;
+    background-color: #4CB963;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -68,7 +68,7 @@ nav a {
 }
 
 footer {
-    background-color: #C8CDCA;
+    background-color: #2B303A;
     color: white;
     padding: 2rem 0 0 0;
     margin-top: auto;
@@ -86,7 +86,7 @@ footer {
 }
 
 .footer-horizontal-slash {
-    background-color: #f4f4f4;
+    background-color: #F7F9F9;
     width: 65rem;
     height: 1rem;
     margin: 1rem 0;
