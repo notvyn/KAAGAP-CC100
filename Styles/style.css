@@ -95,6 +95,10 @@ header {
     transition: 0.2s linear; 
 }
 
+#header-login:active {
+    color: #013806;
+}
+
 #header-login {
     background-color: #ffffff;
 }
@@ -109,6 +113,10 @@ header {
     transform: scale(1.02);
     text-decoration: underline;
     transition: 0.2s linear; 
+}
+
+#header-sign-up:active {
+    background-color: var(--backgroundDarkGreen);
 }
 
 nav {
