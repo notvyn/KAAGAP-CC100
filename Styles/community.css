@@ -266,6 +266,10 @@
     transition: 0.2s ease-out;
 }
 
+#community-submit:active {
+    background-color: var(--backgroundDarkGreen);
+}
+
 .community-shape-container {
     padding: 2rem;
     display: flex;
