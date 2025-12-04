@@ -370,3 +370,7 @@ main {
     color: var(--textWhite);
     transition: 0.2s ease-out;
 }
+
+#newsletter-sign-up:active {
+    background-color: #05630e;
+}
