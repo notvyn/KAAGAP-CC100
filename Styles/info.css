@@ -42,7 +42,7 @@
 
 .info-navigation-container {
     margin: 3rem 1rem 1rem 2rem;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     width: 30rem;
     max-width: 20rem;
     display: flex;
@@ -65,6 +65,10 @@
     text-decoration: none;
     background-color: var(--backgroundBrightSnow);
     color: #000000;
+}
+
+.info-navigation-container a:hover {
+    background-color: rgb(29, 38, 59, 0.1);
 }
 
 .info-content-container {
@@ -98,5 +102,9 @@
 }
 
 .info-sources-link {
-    color:var(--backgroundLightGreen);
+    color: var(--backgroundLightGreen);
+}
+
+.info-sources-link:hover {
+    color: var(--backgroundDarkGreen)
 }

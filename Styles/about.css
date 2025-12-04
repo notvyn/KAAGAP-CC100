@@ -21,6 +21,7 @@
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
+    box-shadow: 0 2px 10px 0 var(--backgroundJetBlack);
 }
 
 #about-section-one {
@@ -46,6 +47,7 @@
 
 .kaagap-info-stripes {
     background-color: rgb(76, 185, 99, 0.3);
+    box-shadow: 0 2px 15px 0 rgb(76, 185, 99, 0.3);
 }
 
 #about-section-two {
@@ -64,6 +66,7 @@
     border-radius: 10px;
     background-color: var(--backgroundDarkGreen);
     color: var(--textWhite);
+    box-shadow: 0 0 10px 0 var(--backgroundLightGreen);
 }
 
 #team-header-container h2 {
@@ -89,7 +92,6 @@
     padding: 1.2rem;
     margin: 0 3rem;
     border-radius: 10px;
-    background: rgb(247, 249, 249, 0.5);
 }   
 
 .team-profile-picture {
@@ -146,6 +148,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1.5rem;
+}
+
+.team-profile-socials-button:hover {
+    transform: translateY(1px) translateX(1px);
+    transition: 0.2s ease-in;
 }
 
 .team-socials-facebook {

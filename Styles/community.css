@@ -37,6 +37,7 @@
     color: var(--textWhite);
     margin: 0;
     padding: 1rem 3rem;
+    box-shadow: 0 0 20px 0 var(--backgroundLightGreen);
 }
 
 #community-significance p {
@@ -75,6 +76,13 @@
     padding: 0 1rem 1rem 1rem;
     margin: 1rem;
     border-radius: 3rem;
+    box-shadow: 0 0 10px 0 var(--backgroundLightGreen);
+}
+
+.community-involvement-content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 0 var(--backgroundLightGreen);
+    transition: 0.2s ease-out;
 }
 
 .community-content-number {
@@ -118,6 +126,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--backgroundDarkGreen);
+    box-shadow: 0 0 10px 0 var(--backgroundJetBlack);
 }
 
 #community-highlights-description {
@@ -165,6 +174,13 @@
     background-color: var(--backgroundBrightSnow);
     padding: 2rem;
     margin: 1rem;
+    box-shadow: 0 0 8px 0 var(--backgroundBrightSnow);
+}
+
+.community-highlights-contents:hover {
+    transform: scale(1.02);
+    transition: 0.2s ease-out;
+    box-shadow: 0 0 20px 0 var(--backgroundBrightSnow);
 }
 
 .community-highlights-contents img {
@@ -208,12 +224,22 @@
     background-color: var(--backgroundBrightSnow);
     border-radius: 10px;
     color: var(--textBlack);
+    box-shadow: 0 0 10px 0 var(--backgroundJetBlack);
+}
+
+.community-form-container:hover {
+    box-shadow: 0 0 30px 0 var(--backgroundLightGreen);
+    transition: 0.2s ease-out;
 }
 
 #community-header {
     font-size: 4rem;
     margin: 0;
     padding: 1rem;
+}
+
+#community-header-title {
+    color: var(--backgroundLightGreen);
 }
 
 #community-username, #community-email {
@@ -235,12 +261,16 @@
     cursor: pointer;
 }
 
+#community-submit:hover {
+    background-color: var(--buttonGreen);
+    transition: 0.2s ease-out;
+}
+
 .community-shape-container {
     padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #square {
