@@ -21,3 +21,9 @@ The core repository for the KAAGAP disaster preparedness website, containing all
 
 12/2/2025 - Included Images for all pages
 - Refined the set of images used and updated the contents of different pages
+
+12/3/2025 - Added Effects and Design 
+- Implemented hover effects and box-shadow to containers, anchors and buttons
+
+12/4/2025 - Refined the Code Structure
+- Removed Unnecessary statements inside html files
