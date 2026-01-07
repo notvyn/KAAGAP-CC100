@@ -1,13 +1,13 @@
 :root {
-    --backgroundDarkGreen: #157F1F;
-    --backgroundLightGreen: #4CB963;
-    --backgroundJetBlack: #1D263B;
+    --backgroundGreen: #157F1F;
+    --backgroundEmerald: #4CB963;
+    --backgroundPrussianBlue: #1D263B;
     --backgroundBrightSnow: #F7F9F9;
     --textWhite: #ffffff;
     --textBlack: #000000;
     --textGreen: #157F1F;
     --buttonGreen: #4CB963;
-    --buttonCyan: #5C6784;
+    --buttonBlue: #5C6784;
     --buttonBrightSnow: #F7F9F9;
 }
 
@@ -21,7 +21,7 @@
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
-    box-shadow: 0 2px 10px 0 var(--backgroundJetBlack);
+    box-shadow: 0 2px 10px 0 var(--backgroundPrussianBlue);
 }
 
 #about-section-one {
@@ -64,9 +64,9 @@
     padding: 5px 4rem;
     margin: 0 0 2rem 0;
     border-radius: 10px;
-    background-color: var(--backgroundDarkGreen);
+    background-color: var(--backgroundGreen);
     color: var(--textWhite);
-    box-shadow: 0 0 10px 0 var(--backgroundLightGreen);
+    box-shadow: 0 0 10px 0 var(--backgroundEmerald);
 }
 
 #team-header-container h2 {

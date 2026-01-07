@@ -1,13 +1,13 @@
 :root {
-    --backgroundDarkGreen: #157F1F;
-    --backgroundLightGreen: #4CB963;
-    --backgroundJetBlack: #1D263B;
+    --backgroundGreen: #157F1F;
+    --backgroundEmerald: #4CB963;
+    --backgroundPrussianBlue: #1D263B;
     --backgroundBrightSnow: #F7F9F9;
     --textWhite: #ffffff;
     --textBlack: #000000;
     --textGreen: #157F1F;
     --buttonGreen: #4CB963;
-    --buttonCyan: #5C6784;
+    --buttonBlue: #5C6784;
 }
 
 html, body {
@@ -58,7 +58,7 @@ header {
 }
 
 .language-option:focus{
-    background-color: var(--backgroundLightGreen);
+    background-color: var(--backgroundEmerald);
 }
 
 #search-button {
@@ -91,7 +91,7 @@ header {
 
 #header-login:hover {
     transform: scale(1.02);
-    color: var(--backgroundDarkGreen);
+    color: var(--backgroundGreen);
     transition: 0.2s linear; 
 }
 
@@ -104,7 +104,7 @@ header {
 }
 
 #header-sign-up {
-    background-color: var(--backgroundLightGreen);
+    background-color: var(--backgroundEmerald);
     color: var(--textWhite);
     border-radius: 2px;
 }
@@ -116,18 +116,18 @@ header {
 }
 
 #header-sign-up:active {
-    background-color: var(--backgroundDarkGreen);
+    background-color: var(--backgroundGreen);
 }
 
 nav {
-    background-color: var(--backgroundLightGreen);
+    background-color: var(--backgroundEmerald);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 2rem;
     gap: 1rem;
     padding: 1rem 2rem;
-    box-shadow: 0 5px 30px 0 var(--backgroundDarkGreen);
+    box-shadow: 0 5px 30px 0 var(--backgroundGreen);
 }
 
 nav a {
@@ -143,7 +143,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: var(--backgroundJetBlack);
+    background-color: var(--backgroundPrussianBlue);
     color: var(--textWhite);
     padding: 2rem 0 0 0;
     margin-top: auto;
@@ -151,7 +151,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 10px 2px var(--backgroundJetBlack);
+    box-shadow: 0 2px 10px 2px var(--backgroundPrussianBlue);
 }
 
 #footer-container-one {

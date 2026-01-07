@@ -1,13 +1,13 @@
 :root {
-    --backgroundDarkGreen: #157F1F;
-    --backgroundLightGreen: #4CB963;
-    --backgroundJetBlack: #1D263B;
+    --backgroundGreen: #157F1F;
+    --backgroundEmerald: #4CB963;
+    --backgroundPrussianBlue: #1D263B;
     --backgroundBrightSnow: #F7F9F9;
     --textWhite: #ffffff;
     --textBlack: #000000;
     --textGreen: #157F1F;
     --buttonGreen: #4CB963;
-    --buttonCyan: #5C6784;
+    --buttonBlue: #5C6784;
 }
 
 #community-section-one {
@@ -33,11 +33,11 @@
 
 #community-significance h2 {
     font-size: 3rem;
-    background-color: var(--backgroundLightGreen);
+    background-color: var(--backgroundEmerald);
     color: var(--textWhite);
     margin: 0;
     padding: 1rem 3rem;
-    box-shadow: 0 0 20px 0 var(--backgroundLightGreen);
+    box-shadow: 0 0 20px 0 var(--backgroundEmerald);
 }
 
 #community-significance p {
@@ -72,16 +72,16 @@
     align-items: center;    
     width: 100%;
     max-width: 20rem;
-    background-color: var(--backgroundLightGreen);
+    background-color: var(--backgroundEmerald);
     padding: 0 1rem 1rem 1rem;
     margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 0 0 10px 0 var(--backgroundLightGreen);
+    box-shadow: 0 0 10px 0 var(--backgroundEmerald);
 }
 
 .community-involvement-content:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px 0 var(--backgroundLightGreen);
+    box-shadow: 0 0 20px 0 var(--backgroundEmerald);
     transition: 0.2s ease-out;
 }
 
@@ -125,8 +125,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--backgroundDarkGreen);
-    box-shadow: 0 0 10px 0 var(--backgroundJetBlack);
+    background-color: var(--backgroundGreen);
+    box-shadow: 0 0 10px 0 var(--backgroundPrussianBlue);
 }
 
 #community-highlights-description {
@@ -224,11 +224,11 @@
     background-color: var(--backgroundBrightSnow);
     border-radius: 10px;
     color: var(--textBlack);
-    box-shadow: 0 0 10px 0 var(--backgroundJetBlack);
+    box-shadow: 0 0 10px 0 var(--backgroundPrussianBlue);
 }
 
 .community-form-container:hover {
-    box-shadow: 0 0 30px 0 var(--backgroundLightGreen);
+    box-shadow: 0 0 30px 0 var(--backgroundEmerald);
     transition: 0.2s ease-out;
 }
 
@@ -239,7 +239,7 @@
 }
 
 #community-header-title {
-    color: var(--backgroundLightGreen);
+    color: var(--backgroundEmerald);
 }
 
 #community-username, #community-email {
@@ -254,7 +254,7 @@
     border: none;
     border-radius: 15px;
     margin: 0 1rem;
-    background-color: var(--buttonCyan);
+    background-color: var(--buttonBlue);
     color: var(--textWhite);
     font-weight: 600;
     padding: 12px 2rem;
@@ -267,7 +267,7 @@
 }
 
 #community-submit:active {
-    background-color: var(--backgroundDarkGreen);
+    background-color: var(--backgroundGreen);
 }
 
 .community-shape-container {
@@ -289,6 +289,6 @@
     width: 25rem;
     height: 25rem;
     border-radius: 100%;
-    background-color: var(--backgroundDarkGreen);
+    background-color: var(--backgroundGreen);
 }
 

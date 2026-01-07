@@ -1,13 +1,13 @@
 :root {
-    --backgroundDarkGreen: #157F1F;
-    --backgroundLightGreen: #4CB963;
-    --backgroundJetBlack: #1D263B;
+    --backgroundGreen: #157F1F;
+    --backgroundEmerald: #4CB963;
+    --backgroundPrussianBlue: #1D263B;
     --backgroundBrightSnow: #F7F9F9;
     --textWhite: #ffffff;
     --textBlack: #000000;
     --textGreen: #157F1F;
     --buttonGreen: #4CB963;
-    --buttonCyan: #5C6784;
+    --buttonBlue: #5C6784;
 }
 
 .initial-image {
@@ -56,7 +56,7 @@
 
 .info-navigation-container h2 {
     font-size: 1.1rem;
-    background-color: var(--backgroundLightGreen);
+    background-color: var(--backgroundEmerald);
     color: var(--textWhite);
     margin: 0;
 }
@@ -102,9 +102,9 @@
 }
 
 .info-sources-link {
-    color: var(--backgroundLightGreen);
+    color: var(--backgroundEmerald);
 }
 
 .info-sources-link:hover {
-    color: var(--backgroundDarkGreen)
+    color: var(--backgroundGreen)
 }

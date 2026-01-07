@@ -1,13 +1,13 @@
 :root {
-    --backgroundDarkGreen: #157F1F;
-    --backgroundLightGreen: #4CB963;
-    --backgroundJetBlack: #1D263B;
+    --backgroundGreen: #157F1F;
+    --backgroundEmerald: #4CB963;
+    --backgroundPrussianBlue: #1D263B;
     --backgroundBrightSnow: #F7F9F9;
     --textWhite: #ffffff;
     --textBlack: #000000;
     --textGreen: #157F1F;
     --buttonGreen: #4CB963;
-    --buttonCyan: #5C6784;
+    --buttonBlue: #5C6784;
     --buttonBrightSnow: #F7F9F9;
 }
 
@@ -101,7 +101,7 @@ main {
     font-size: 1.2rem;
     font-weight: 600;
     text-decoration: none;
-    background-color: var(--buttonCyan);
+    background-color: var(--buttonBlue);
     padding: 10px;
     width: 100%;
     color: var(--textWhite);
@@ -152,7 +152,7 @@ main {
     border: none;
     font-weight: 600;
     cursor: pointer;
-    background-color: var(--backgroundLightGreen);
+    background-color: var(--backgroundEmerald);
     color: var(--textWhite);
 }
 
@@ -179,7 +179,7 @@ main {
 }
 
 #awareness-container {
-    background-color: var(--backgroundDarkGreen);
+    background-color: var(--backgroundGreen);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,7 +209,7 @@ main {
 
 .pages-hub-container:hover {
     transform: scale(1.01);
-    box-shadow: 5px 5px 50px 0px var(--backgroundLightGreen);
+    box-shadow: 5px 5px 50px 0px var(--backgroundEmerald);
     transition: 0.2s ease-in;
 }
 
@@ -238,7 +238,7 @@ main {
     font-weight: 600;
     text-decoration: none;
     color: var(--textWhite);
-    background-color: var(--buttonCyan);
+    background-color: var(--buttonBlue);
     padding: 6px 15%;
     margin: 0 0 2rem 0;
 }
@@ -251,12 +251,12 @@ main {
 #home-section-six {
     width: 100%;
     height: 30rem;
-    background-color: var(--backgroundDarkGreen);
+    background-color: var(--backgroundGreen);
     color: var(--textWhite);
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 15px 0 var(--backgroundLightGreen);
+    box-shadow: 0 0 15px 0 var(--backgroundEmerald);
 }
 
 #story-label {
@@ -320,12 +320,12 @@ main {
     width: 100%;
     max-width: 40rem;
     border-radius: 10px;
-    box-shadow: 0 0 15px 0 var(--backgroundJetBlack);
+    box-shadow: 0 0 15px 0 var(--backgroundPrussianBlue);
 }
 
 #newsletter-form:hover {
     transform: scale(1.02);
-    box-shadow: 0 0 50px 0 var(--backgroundLightGreen);
+    box-shadow: 0 0 50px 0 var(--backgroundEmerald);
     transition: 0.3s ease-out;
 }
 
